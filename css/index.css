@@ -35,7 +35,7 @@ a::before{
     margin-right: 10px;
 }
 a:hover::before{
-    background-color: #c6d831;
+    background-color: #10908e;
 }
 
 #button{
