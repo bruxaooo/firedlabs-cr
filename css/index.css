@@ -1,9 +1,17 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #7C5E99;
-    border-bottom: 10px solid #000000;
+    background-color: #2c645e;
+    border-bottom: 10px solid #052137;
     padding: 10px 20px;
+}
+
+img{
+    border-radius: 35px;
+    box-shadow: 5px 5px 0px #0c0b42;
+}
+img:hover{
+    scale: 110%;
 }
 
 nav{
@@ -12,7 +20,7 @@ nav{
 a{
     display: inline-flex;
     align-items: center;
-    color: #fff;
+    color: #faffff;
     font-size: 20px;
     font-family: "Fira Code",Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -21,21 +29,26 @@ a{
 }
 a::before{
     content: "";
-    background-color: #F25A70;
+    background-color: #488bd4;
     width: 10px;
     height: 10px;
     margin-right: 10px;
 }
-
+a:hover::before{
+    background-color: #c6d831;
+}
 
 #button{
     display: inline-block;
-    background-color: #F25A70;
+    background-color: #488bd4;
     padding: 20px 18px;
-    box-shadow: 5px 5px 0px #000000;
+    box-shadow: 5px 5px 0px #0c0b42;
     margin-left: 0px;
 }
-#button::before
-{
+#button::before{
     content: none;
+}
+#button:hover{
+    background-color: #10908e;
+    scale: 110%;
 }
