@@ -35,7 +35,7 @@ a::before{
     margin-right: 10px;
 }
 a:hover::before{
-    background-color: #10908e;
+    background-color: #d4662f;
 }
 
 #button{
@@ -49,6 +49,6 @@ a:hover::before{
     content: none;
 }
 #button:hover{
-    background-color: #10908e;
+    background-color: #d4662f;
     scale: 1.1 1.1;
 }
