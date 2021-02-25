@@ -11,7 +11,7 @@ img{
     box-shadow: 5px 5px 0px #0c0b42;
 }
 img:hover{
-    scale: 110%;
+    scale: 1.1;
 }
 
 nav{
@@ -50,5 +50,5 @@ a:hover::before{
 }
 #button:hover{
     background-color: #10908e;
-    scale: 110%;
+    scale: 1.1 1.1;
 }
